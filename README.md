@@ -5,4 +5,4 @@ az-drag-temp-demo
 [az-drag-temp 插件](https://ext.dcloud.net.cn/plugin?id=15507)
 
 #### 运行
-	直接导入hbuildx 运行到微信小程序端即可看到demo效果
+直接导入hbuildx 运行到微信小程序端即可看到demo效果
