@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "insert-text-temp": "./components/insertTextTemp",
+    "insert-image-temp": "./components/insertImageTemp"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "az-drag-temp": "../../../uni_modules/az-drag-temp/components/az-drag-temp/az-drag-temp",
+    "uni-datetime-picker": "../../../uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker"
+  }
+}

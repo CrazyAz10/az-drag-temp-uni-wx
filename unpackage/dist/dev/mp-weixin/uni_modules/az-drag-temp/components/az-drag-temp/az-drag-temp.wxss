@@ -1,0 +1,111 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.drag-temp.data-v-f8aded23 {
+  border: 1px dashed #2675ec;
+}
+.drag-temp .textbtn.data-v-f8aded23 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #CFDEF6;
+}
+.drag-temp .textbtn .text.data-v-f8aded23 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.drag-temp .mask.data-v-f8aded23 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.drag-temp .delete.data-v-f8aded23 {
+  box-sizing: border-box;
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  bottom: auto;
+  width: 96rpx;
+  height: 96rpx;
+  padding: 30rpx;
+  transform: translate(100%, -100%);
+}
+.drag-temp .delete .icon.data-v-f8aded23 {
+  width: 100%;
+  height: 100%;
+  padding: 5rpx;
+  border-radius: 10rpx;
+  background-color: #007aff;
+}
+.drag-temp .delete .icon.data-v-f8aded23::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAQlJREFUWEftlksOwzAIROFkbU+W5mRpT0aFZFtRGmCwW2XjbGOYZ75muvjji/VpAswIuBEQkTsR3Zh5zRZrtSWiNzO/LPsIQHaGTxSkiG/VlplNnQyA+gshjuIF4mFFIQvgQhjiNBIBrYEWSi8dljgRmbdXf2EbOo5bOnrFIQA95EFolRtRcm/eChRtLwfizAUkDkegKoAQsHgaIEiH/k6J/wMgnBPHfIVdsDcAU5CCgAFA8coLQ0AAXp8XRWhYnbVLCIAMGWRY9W5DaxR/VXsvRM8yMlvtp8sou1aDYWUWJRoBfdGs3svGa9fudVwm34K+hI6FJiLL0JMMXVQj58I2HHGO2E6AGYEPjSyeIYlc/BUAAAAASUVORK5CYII=");
+  background-size: 100% 100%;
+}
+.drag-temp .delete.left-position.data-v-f8aded23 {
+  left: 30rpx;
+  right: auto;
+  transform: translate(-100%, -100%);
+}
+.drag-temp .scale.data-v-f8aded23 {
+  box-sizing: border-box;
+  position: absolute;
+  right: 30rpx;
+  top: auto;
+  bottom: 30rpx;
+  width: 96rpx;
+  height: 96rpx;
+  padding: 30rpx;
+  transform: translate(100%, 100%);
+}
+.drag-temp .scale .icon.data-v-f8aded23 {
+  width: 100%;
+  height: 100%;
+  padding: 5rpx;
+  border-radius: 10rpx;
+  background-color: #007aff;
+}
+.drag-temp .scale .icon.data-v-f8aded23::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAc1JREFUWEfd179KHFEUx/HvIUUKwSKQgKJFiEWwUFCJREzQgAERixTmEWxFX0B9AdMJSZ3KP8+QbQJJkSIiqZI38AFSCD85chZ2x5nZcffeLbzt3HvuZ+6fc2ZMUgtYBh7RvH0ys73m3at7mqT/wOM+gs2a2UUf47qGOED9BDEz62dccUwVwLflsGaCSzO7ygnw2Kdm9jHFJHUxiivwE1jsGJAdUQRsADvA+2EhioBV4DdwBrwbBuIOwMxakp4G4m1uRCnAJ5U0FoilnIhKQCAmA/EqF6IWEIjngZjLgegJCMQUcA7MdCBW/bwMmicccATsAr/MbKEqoKSXwFdgHmiZmd+YgdttPpc007SwSFpJ8eZteZKCMsgyPCxA0+2R5N8fE2b2L9kKSPoGrPSqopK82B0Dfq2/JAH4mwMOaLfKKirpANhPfgglnQBbvRA5Af5Rewp8qENkA0Q+8cPliM0qRFZAIEYCsV6GyA4IxGgUsLUiYiiAQDwJRGfN8O35k+UWlKVjSc8C8abjuQOmk1/Dmio6HojXZX2SJKJ24EhIZfP4SviPjpf0rpYMIOlH4Z+iUZFMApD0AvjbaMbuTtdJAHHqPwPb90BcA99vAL532kBdSSq5AAAAAElFTkSuQmCC");
+  background-size: 100% 100%;
+}
+.drag-temp .scale.left-position.data-v-f8aded23 {
+  left: 30rpx;
+  right: auto;
+  transform: translate(-100%, 100%);
+}
